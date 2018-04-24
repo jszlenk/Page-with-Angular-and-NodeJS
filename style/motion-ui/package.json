@@ -1,8 +1,7 @@
 {
   "_args": [
     [
-      "motion-ui",
-      "C:\\Users\\Jakub\\WebstormProjects\\FL2"
+      "motion-ui"
     ]
   ],
   "_from": "motion-ui@latest",

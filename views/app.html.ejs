@@ -1,0 +1,92 @@
+<!--
+
+
+   $$$$$$$$\ $$\                     $$\       $$\           $$\
+   $$  _____|\__|                    $$ |      \__|          $$ |
+   $$ |      $$\  $$$$$$\   $$$$$$\  $$ |      $$\ $$$$$$$\  $$ |  $$\
+   $$$$$\    $$ |$$  __$$\ $$  __$$\ $$ |      $$ |$$  __$$\ $$ | $$  |
+   $$  __|   $$ |$$ |  \__|$$$$$$$$ |$$ |      $$ |$$ |  $$ |$$$$$$  /
+   $$ |      $$ |$$ |      $$   ____|$$ |      $$ |$$ |  $$ |$$  _$$<
+   $$ |      $$ |$$ |      \$$$$$$$\ $$$$$$$$\ $$ |$$ |  $$ |$$ | \$$\
+   \__|      \__|\__|       \_______|\________|\__|\__|  \__|\__|  \__|
+
+
+
+   $$\      $$\           $$\             $$$$$$$\                      $$\
+   $$ | $\  $$ |          $$ |            $$  __$$\                     \__|
+   $$ |$$$\ $$ | $$$$$$\  $$$$$$$\        $$ |  $$ | $$$$$$\   $$$$$$$\ $$\  $$$$$$\  $$$$$$$\
+   $$ $$ $$\$$ |$$  __$$\ $$  __$$\       $$ |  $$ |$$  __$$\ $$  _____|$$ |$$  __$$\ $$  __$$\
+   $$$$  _$$$$ |$$$$$$$$ |$$ |  $$ |      $$ |  $$ |$$$$$$$$ |\$$$$$$\  $$ |$$ /  $$ |$$ |  $$ |
+   $$$  / \$$$ |$$   ____|$$ |  $$ |      $$ |  $$ |$$   ____| \____$$\ $$ |$$ |  $$ |$$ |  $$ |
+   $$  /   \$$ |\$$$$$$$\ $$$$$$$  |      $$$$$$$  |\$$$$$$$\ $$$$$$$  |$$ |\$$$$$$$ |$$ |  $$ |
+   \__/     \__| \_______|\_______/       \_______/  \_______|\_______/ \__| \____$$ |\__|  \__|
+                                                                            $$\   $$ |
+                                                                            \$$$$$$  |
+                                                                             \______/
+
+
+         I really love Design ;)
+
+         Jakub Szlenk
+
+-->
+<!DOCTYPE html>
+
+<html class="no-js" lang="pl" ng-app='app' manifest="cache.manifest">
+<head>
+    <title ng-bind="$root.pageTitle">FireLink Aplikacje WWW</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--<meta name="description" content="{{pageDescription}}">-->
+    <meta name="description" content="Projektowanie firmowych aplikacji i stron internetowych. Budowa oraz promocja marek. Rozwój nowoczesnych e-usług dla biznesu. Gwarancja jakości.">
+    <link rel='stylesheet' href='/style/css/foundation.min.css'>
+    <link rel='stylesheet' href='/app.css'>
+    <link rel="shortcut icon" href="/style/images/favicon.ico" />
+    <meta name="google-site-verification" content="eIoVOA5DbKQrprnyiL2MRa5Zscwy6Hbxwya2OoitF00" />
+    <link rel="alternate" hreflang="pl" href="http://firelink/" />
+</head>
+<body ng-controller='ApplicationCtrl'>
+<div class="title-bar" data-responsive-toggle="top-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar" id="top-menu">
+    <div class="top-bar-left">
+        <ul class="menu">
+            <li><a hreflang="pl" href='/' id="logo">FIRELINK APLIKACJE WEB</a></li>
+        </ul>
+    </div>
+    <div class="top-bar-right">
+        <ul class="dropdown vertical medium-horizontal menu">
+            <li><a class="lin" href='/strony-internetowe-economy'>Usługi</a></li>
+            <li><a class="lin linp" href='/blog'>Blog</a></li>
+            <li><a class="lin show-for-small-only" href='/o-autorze'>O Autorze</a></li>
+            <li><a class="lin" href='/kontakt'>Kontakt</a></li>
+        </ul>
+    </div>
+</div>
+<div ng-view></div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src="https://cdn.jsdelivr.net/foundation/6.4.3/foundation.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-animate.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-route.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.3/ui-bootstrap-tpls.min.js'></script>
+<script src='/app.js'></script>
+<script src='/jscript.js'></script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-81519507-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- Compressed JavaScript -->
+<!--<link rel='stylesheet' href='/style/motion-ui/motion-ui.css'>-->
+<!--<script src='/style/motion-ui/motion-ui.js'></script>-->
+</body>
+</html>

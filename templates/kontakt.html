@@ -1,0 +1,109 @@
+<div class="row fullWidth">
+    <div class="small-12 medium-12 large-5 columns">
+        <br>
+        <h5 class="subheader">Formularz kontaktowy oraz wyceny projektu</h5>
+        <form role="form" id="myform" name="contactForm" data-abide novalidate>
+            <div data-abide-error class="alert callout" style="display: none;">
+                <p><i class="fi-alert"></i>Wypełnij dokładnie wszytkie pola wymagane.</p>
+            </div>
+            <div id="odpowiedz"></div>
+            <div class="row">
+                <div class="small-12 columns">
+                    <label>Imię i Nazwisko Wymagane
+                        <input type="text" class="removeLater" placeholder="Jan Malinowski"
+                               aria-describedby="Imię i Nazwisko" name="name"
+                               ng-model="contact.name" required>
+                        <span class="form-error">Wypełnij pole wymagane.</span>
+                    </label>
+                    <p class="help-text" id="exampleHelpText">Podaj proszę Twoje imię i nazwisko lub osoby do
+                        kontaktu!</p>
+                </div>
+                <div class="small-12 columns">
+                    <label>Adres Email Wymagane
+                        <input type="email" class="removeLater" placeholder="Twój adres email"
+                               aria-describedby="Adres email" name="email"
+                               ng-model="contact.email" required>
+                        <span class="form-error">Wypełnij pole wymagane. Adres email niepoprawny.</span>
+                    </label>
+                </div>
+                <div class="small-12 columns">
+                    <label>Wiadomość Niewymagane
+                        <textarea class="removeLater" placeholder="Treść wiadomości" aria-describedby="Wiadomość"
+                                  name="message"
+                                  ng-model="contact.message" data-abide-ignore></textarea>
+                    </label>
+                    <p class="help-text" id="exampleHelpTex">Napisz w wiadomości czego dokładnie potrzebujesz, jakie
+                        masz cel.</p>
+                </div>
+                <div class="medium-6 columns">
+                    <label>Adres URL Niewymagane
+                        <input type="url" placeholder="http://google.com" ng-model="contact.url">
+                        <span class="form-error">Adres URL niepoprawny.</span>
+                    </label>
+                </div>
+                <div class="medium-6 columns">
+                    <label>Numer telefonu Wymagane
+                        <input type="text" placeholder="999-999-999" ng-model="contact.tel" required
+                               pattern="^[0-9-]*$">
+                        <span class="form-error">Numer telefonu niepoprawny.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <fieldset class="large-6 columns">
+                    <button class="button float-right" id="wys" type="submit" value="Submit" ng-click="postMail()">
+                        Wyślij wiadomość
+                    </button>
+                </fieldset>
+                <fieldset class="large-6 columns">
+                    <button class="button float-right" id="rese" type="reset" value="Reset">Resetuj formularz</button>
+                </fieldset>
+            </div>
+        </form>
+        <div class="row">
+            <div class="large-12 columns"><br>
+                <ul class="no-bullet">
+                    <li>Adres: 00-000 Gdańsk ul. Gdańska 1</li>
+                    <li>Tel: 555-555-555</li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+        <div class="callout primary">
+            <div class="row">
+                <div class="small-6 columns">
+                    <ul class="no-bullet">
+                        <li>Aplikacje Web dla biznesu</li>
+                        <li>Projektowanie stron internetowych</li>
+                        <li>Budowa marki e-marketing</li>
+                        <li>Pozycjonowanie witryn</li>
+                    </ul>
+                </div>
+                <div class="small-6 columns">
+                    <img class="float-right" src="/style/images/wd.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="small-12 medium-12 large-7 columns  "><br>
+        <h3 class="subheader">Działamy na terenie całego kraju oraz zagranicy</h3>
+        <div class="row small-up-1 medium-up-2 large-up-3" data-equalizer data-equalize-by-row="true">
+            <div class="column hide-for-small-only"><img src="/style/images/A12.jpg"></div>
+            <div class="column hide-for-small-only"><img src="/style/images/A14.jpg"></div>
+            <div class="hide-for-medium-only column"><img src="/style/images/A24.jpg"></div>
+        </div>
+        <br>
+        <div class="callout ">
+            <blockquote>
+                <h4 class="subheader">Zapraszam na niezobowiązującą kawę w Trójmieście</h4>
+                <p class="subheader">Regularnie bywam również w Łebie, Władysławowie, Poznaniu, Warszawie oraz
+                    Krakowie</p>
+                <cite class="subheader">Życzę pomyślnych wiatrów oraz sukcesów na oceanie wyzwań. Jakub Szlenk</cite>
+            </blockquote>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).foundation();
+</script>
+

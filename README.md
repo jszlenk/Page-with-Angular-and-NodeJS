@@ -11,7 +11,7 @@
 ![Foundation_Framework](https://img.shields.io/badge/Foundation_Framework-6.43-blue.svg)
 
 
-Responsive website at Node.js, Express with Motion UI and Stylus. A good template for building larger solutions, such as CMS, CRM only in JavaScript.
+Responsive and cached website at Node.js, Express with Motion UI and Stylus. A good template for building larger solutions, such as CMS, CRM only in JavaScript.
 
 ### Installation
 
@@ -32,11 +32,11 @@ We build the application via gulp.
 ```gulp
 gulp build
 ```
-##### You can enable the listening task
+###### You can enable the listening task
 ```gulp
 gulp watch
 ```
-##### or build a development version
+###### or build a development version
 ```gulp
 gulp dev
 ```

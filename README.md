@@ -11,11 +11,11 @@
 ![Foundation_Framework](https://img.shields.io/badge/Foundation_Framework-6.43-blue.svg)
 
 
-Responsive and cached website at Node.js, Express with Motion UI and Stylus. A good template for building larger solutions, such as CMS, CRM only in JavaScript.
+Responsive and cached website at Node.js, Express with Motion UI and Stylus. A good template for building larger solutions, such as CMS, CRM entirely in JavaScript.
 
 ### Installation
 
-#### NPM (server-side)
+##### NPM (server-side)
 
 ```nodejs
 npm install

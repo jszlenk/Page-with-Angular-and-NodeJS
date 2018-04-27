@@ -15,7 +15,7 @@ Responsive and cached website at Node.js, Express with Motion UI and Stylus. A g
 
 ### Installation
 
-##### NPM (server-side)
+**NPM (server-side)**
 
 ```nodejs
 npm install

@@ -2,9 +2,11 @@
 
 
 ![NodeJS](https://img.shields.io/badge/NodeJS-9.11-blue.svg)
+![NPM](https://img.shields.io/badge/NPM-5.60-blue.svg)
 ![ExpressJS](https://img.shields.io/badge/Express-4.15-blue.svg)
 ![AngularJS](https://img.shields.io/badge/AngularJS-1.65-blue.svg)
 ![Motion UI](https://img.shields.io/badge/Motion_UI-1.22-blue.svg)
+![Gulp](https://img.shields.io/badge/Gulp-3.91-blue.svg)
 ![Nodemailer](https://img.shields.io/badge/Nodemailer-2.42-blue.svg)
 ![Foundation_Framework](https://img.shields.io/badge/Foundation_Framework-6.43-blue.svg)
 
@@ -18,11 +20,16 @@
 - Morgan
 - Gulp
 
-We build the application via gulp. Gulp helps to automate painful or time-consuming tasks in the workflow of development.
+We build the application via gulp. 
+
+> Gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something.
+>
+>**Source:** [gulpjs.com](https://https://gulpjs.com/)
 
 The basic commands are enough to prepare compressed js and css files productively:
 
 ```
+npm install
 gulp build
 node app.js
 ```

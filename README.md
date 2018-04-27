@@ -48,7 +48,12 @@ gulp dev
 - Lodash
 - EJS
 
-On the frontend side, we use AngularJS for routing and Motion UI for animation. Motion UI is a JS library for quickly creating CSS transitions and animations.
+On the frontend side, we use AngularJS for routing and Motion UI for animation. 
+
+
+> Motion UI is a Sass library for quickly creating CSS transitions and animations.
+>
+>**Source:** [zurb.com/playground/motion-ui](https://zurb.com/playground/motion-ui)
 
 ### User Interface
 

@@ -28,22 +28,23 @@ We build the application via gulp.
 
 The basic commands are enough to prepare compressed js and css files productively:
 
-```
+```nodejs
 npm install
 gulp build
 node app.js
 ```
 You can enable the listening task
-```
+```gulp
 gulp watch
 ```
 or build a development version
-```
+```gulp
 gulp dev
 ```
 ### Frontend
 
 - AngularJS
+- Cache Manifest
 - Motion UI
 - Lodash
 - EJS
@@ -57,6 +58,7 @@ On the frontend side, we use AngularJS for routing and Motion UI for animation.
 
 ### User Interface
 
+- Responsive web design (RWD) 
 - CSS Foundation
 - Stylus
 

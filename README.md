@@ -11,7 +11,36 @@
 ![Foundation_Framework](https://img.shields.io/badge/Foundation_Framework-6.43-blue.svg)
 
 
-**Responsive website at Node.js, Express with Motion UI and Stylus. A good template for building larger solutions, such as CMS, CRM only in JavaScript.**
+Responsive website at Node.js, Express with Motion UI and Stylus. A good template for building larger solutions, such as CMS, CRM only in JavaScript.
+
+### Installation
+
+#### NPM (server-side)
+
+```nodejs
+npm install
+node app.js
+```
+We build the application via gulp. 
+
+> Gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something.
+>
+>**Source:** [gulpjs.com](https://https://gulpjs.com/)
+
+###### The basic commands are enough to prepare compressed js and css files:
+
+```gulp
+gulp build
+```
+##### You can enable the listening task
+```gulp
+gulp watch
+```
+##### or build a development version
+```gulp
+gulp dev
+```
+
 ### Backend
 
 - NodeJS
@@ -20,27 +49,6 @@
 - Morgan
 - Gulp
 
-We build the application via gulp. 
-
-> Gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something.
->
->**Source:** [gulpjs.com](https://https://gulpjs.com/)
-
-The basic commands are enough to prepare compressed js and css files productively:
-
-```nodejs
-npm install
-gulp build
-node app.js
-```
-You can enable the listening task
-```gulp
-gulp watch
-```
-or build a development version
-```gulp
-gulp dev
-```
 ### Frontend
 
 - AngularJS
@@ -75,7 +83,6 @@ I designed the original user interface basing on the CSS Frameworks Zurb Foundat
 - HDR Photomatix
 
 ### Screenshot
-<br>
 
 ![alt text](docs/spa1.png)
 

@@ -9,7 +9,7 @@
 ![Foundation_Framework](https://img.shields.io/badge/Foundation_Framework-6.43-blue.svg)
 
 
-** Responsive website at Node.js, Express with Motion UI and Stylus. A good template for building larger solutions, such as CMS, CRM only in JavaScript.**
+**Responsive website at Node.js, Express with Motion UI and Stylus. A good template for building larger solutions, such as CMS, CRM only in JavaScript.**
 ### Backend
 
 - NodeJS
@@ -54,9 +54,14 @@ I designed the original user interface basing on the CSS Frameworks Zurb Foundat
 >
 >**Source:** [foundation.zurb.com](https://foundation.zurb.com)
 
+### Graphics
 
+- Adobe Illustrator
+- Inkscape
+- HDR Photomatix
 
 ### Screenshot
+<br>
 
 ![alt text](docs/spa1.png)
 
